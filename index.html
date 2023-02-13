@@ -69,6 +69,10 @@
                </div>
             </div>
          </section>
+
+        
+        <div class="lagbut">
+         
          <section class="elementor-section elementor-top-section elementor-element elementor-element-7531e6e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7531e6e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cb24aee" data-id="cb24aee" data-element_type="column">
@@ -76,7 +80,9 @@
                      <div class="elementor-element elementor-element-3bfd3b2b elementor-align-center elementor-button-warning elementor-widget elementor-widget-button animated bounceInDown" data-id="3bfd3b2b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceInDown&quot;}" data-widget_type="button.default">
                         <div class="elementor-widget-container">
                            <div class="elementor-button-wrapper">
-                              <a href="#OF1" class="elementor-button-link elementor-button elementor-size-lg" role="button" id="OF1">
+                              <!-- <a href="#OF1" class="elementor-button-link elementor-button elementor-size-lg" role="button" id="OF1"> -->
+                              <a href="https://pepper.com.br/checkout/index.html?p=16164&o=9059" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+                                 
                               <span class="elementor-button-content-wrapper">
                               <span class="elementor-button-text">QUERO VIVER ESSA NOSTALGIA!</span>
                               </span>
@@ -88,6 +94,7 @@
                </div>
             </div>
          </section>
+      
          <section class="elementor-section elementor-top-section elementor-element elementor-element-6f1400f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f1400f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d00abb8" data-id="d00abb8" data-element_type="column">
@@ -1370,6 +1377,7 @@
                </div>
             </div>
          </section>
+      </div>
          <section class="elementor-section elementor-top-section elementor-element elementor-element-3afa6f6e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3afa6f6e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b625826" data-id="3b625826" data-element_type="column">
@@ -1461,5 +1469,28 @@
       <script src="https://app.ragbox.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.10.1" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
       <svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
       <script src="https://app.ragbox.com.br/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"></script>
+
+      <style type="text/css">
+         .lagbut{
+            display: none;
+         }
+      </style>
+
+      <script type="text/javascript">           
+         var tmin = 7;
+         var tseg = 10;
+           
+         var tpitch = (tmin * 60000) + (tseg * 1000);
+         setTimeout('show()', tpitch);
+         console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
+         function show(){
+         var list = document.getElementsByClassName('lagbut');
+         for (var i = 0; i < list.length; i++) {
+            list[i].style.visibility = 'visible';
+            list[i].style.display = 'block';
+            }
+         }
+      </script>
+      
    </body>
 </html>
